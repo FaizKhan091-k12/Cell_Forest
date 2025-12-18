@@ -10,7 +10,7 @@ namespace DigitalRuby.RainMaker
 
         private void Start()
         {
-            RainScript.RainIntensity = RainSlider.value = 0f;
+            RainScript.RainIntensity = RainSlider.value = .35f;
             RainScript.EnableWind = true;
         }
 
